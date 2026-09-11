@@ -423,19 +423,4 @@ img, iframe {
         padding-bottom: 60px;
     }
 }
-
-footer a[href*="netlify.com"],
-.netlify-badge,
-[data-netlify] {
-    display: none !important;
-}
-
-#netlify-badge,
-[data-netlify-badge],
-iframe[src*="netlify"],
-.netlify-identity-widget {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
 }
